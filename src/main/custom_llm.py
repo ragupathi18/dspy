@@ -19,7 +19,7 @@ class CustomLLM(LLM):
         **kwargs: Any,
     ) -> str:
         load_dotenv()
-        API_KEY = "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"
+        API_KEY = ""
         headers = {"Authorization": f"Bearer {API_KEY}"}
         API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
         payload = {
