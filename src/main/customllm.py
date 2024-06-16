@@ -5,7 +5,7 @@ class Claude(LM):
     def __init__(self,model, api_key):
         super().__init__(model)
         self.model = model
-        self.api_key = "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"
+        self.api_key = ""
         self.provider = "default"
 
         self.base_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
