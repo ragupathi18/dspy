@@ -1,7 +1,8 @@
 import dspy
 from customllm import Claude
 
-turbo=dspy.OpenAI(model='gpt-3.5-turbo')
+#turbo=dspy.OpenAI(model='gpt-3.5-turbo')
+turbo=Claude("dummy","dummy")
 colbertv2_wiki17_abstracts = dspy.ColBERTv2(url='http://20.102.90.50:2017/wiki17_abstracts')
 
 dspy.settings.configure(lm=turbo, rm=colbertv2_wiki17_abstracts)
@@ -56,7 +57,7 @@ def validate_context_and_answer(example, pred, trace=None):
 # Ask any question you like to this simple RAG program.
 compiled_rag=RAG()
 compiled_rag.load("dspycompiled.txt")
-my_question = "how many floors in the castle David Gregory had inherited?"
+my_question = "What castle did David Gregory inherited?"
 
 # Get the prediction. This contains `pred.context` and `pred.answer`.
 pred = compiled_rag(my_question)

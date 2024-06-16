@@ -8,9 +8,9 @@ class Claude(LM):
         self.api_key = "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"
         self.provider = "default"
 
-        #self.base_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
+        self.base_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
         #self.base_url ="https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
-        self.base_url ="https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B"
+        #self.base_url ="https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B"
 
     def basic_request(self, prompt: str, **kwargs):
         headers = {"Authorization": f"Bearer {self.api_key}",
