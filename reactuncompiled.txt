@@ -1,0 +1,45 @@
+{
+  "tools['Search']": {
+    "k": 1
+  },
+  "react[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 1:"
+  },
+  "react[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 2:"
+  },
+  "react[2]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 3:"
+  },
+  "react[3]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 4:"
+  },
+  "react[4]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 5:"
+  }
+}

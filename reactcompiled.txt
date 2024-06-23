@@ -1,0 +1,270 @@
+{
+  "tools['Search']": {
+    "k": 1
+  },
+  "react[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "What happened to my claim claim312:",
+        "Thought_1": "I need to search for information about claim312.",
+        "Action_1": "Search[claim312]",
+        "Observation_1": [
+          "claim312 is for Raj Palli, submitted on =5\/1\/2024, status=held, billed_amount=320, allowed_amount=250, member_cost_share=30\n"
+        ]
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      }
+    ],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 1:"
+  },
+  "react[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "What happened to my claim claim312:",
+        "Thought_1": "I need to search for information about claim312.",
+        "Action_1": "Search[claim312]",
+        "Observation_1": [
+          "claim312 is for Raj Palli, submitted on =5\/1\/2024, status=held, billed_amount=320, allowed_amount=250, member_cost_share=30\n"
+        ],
+        "Thought_2": "I have found the information about claim312. I should provide this information as the answer.",
+        "Action_2": "Finish[claim312 is for Raj Palli, submitted on 5\/1\/2024, status=held, billed_amount=320, allowed_amount=250, member_cost_share=30]"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      },
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      }
+    ],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 2:"
+  },
+  "react[2]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      }
+    ],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 3:"
+  },
+  "react[3]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      }
+    ],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 4:"
+  },
+  "react[4]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      }
+    ],
+    "signature_instructions": "You will be given `question` and you will respond with `answer`.\n\nTo do this, you will interleave Thought, Action, and Observation steps.\n\nThought can reason about the current situation, and Action can be the following types:\n\n(1) Search[query], which takes a search query and returns one or more potentially relevant passages from a corpus\n(2) Finish[answer], which returns the final `answer` and finishes the task",
+    "signature_prefix": "Action 5:"
+  }
+}
