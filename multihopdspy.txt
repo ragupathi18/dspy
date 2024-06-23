@@ -1,0 +1,380 @@
+{
+  "generate_query[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "dspy_uuid": "44edf83b-168a-4dc3-ade7-4a674615cd2e",
+        "context": [],
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "rationale": "produce the query. We need to find the publication date of both \"Who Put the Bomp\" and \"Self\" in order to determine which one was most recently published.",
+        "query": "\"publication date of Who Put the Bomp\" OR \"publication date of Self\""
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "ec983175-b076-4d3e-bd15-5746c29673b4",
+        "context": [],
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "rationale": "produce the query. We know that Scott Shaw is a well-known martial artist and author, so it is likely that his articles would be published in a magazine related to martial arts. Therefore, we can search for articles by Scott Shaw in Tae Kwon Do Times to see if he has been featured in that publication.",
+        "query": "\"Scott Shaw site:tkdtimes.com\""
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "b420da31-b4f6-4122-ba5e-16dd3c71989c",
+        "context": [],
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "rationale": "produce the query. We need to find the heights of both buildings and compare them.",
+        "query": "\"height of Empire State Building\" OR \"height of Bank of America Tower\""
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "d7039c9b-0aa4-4771-a9fa-0234816c702b",
+        "context": [],
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "rationale": "produce the query. We know that record labels are typically credited on album releases. By searching for the album title \"Everything Has Changed\" along with the artist's name, we can find information on the record label.",
+        "query": "\"Everything Has Changed\" album record label [artist name]"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "bc93e429-52c7-4523-9c23-a89ff3fcd673",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "28edf098-8638-4738-9078-49341e863423",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "fc98d3e1-c440-48d1-8817-f80dd749a3b1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "b87d5534-29d4-46fb-ba9f-cb0413c2cfdc",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Samantha Cristoforetti and Mark Shuttleworth are both best known for being first in their field to go where? ",
+        "answer": "space",
+        "dspy_uuid": "3a5d51e8-cce0-44ba-aa1a-52655cbfbcb4",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "c6609eb2-93c2-403b-b546-fba09ba558d2",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "b91c7117-fe17-4335-b87e-8ae7e2f945d8",
+        "dspy_split": "train"
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "a0ead0bb-a767-41d4-b64e-e6495e1bab0c",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "answer": "Rosario Dawson",
+        "dspy_uuid": "46c54710-f98a-4fae-ba5d-8dfe0b51909d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "answer": "Bill Murray",
+        "dspy_uuid": "2775a29f-4979-4d68-abe2-a4b2538764b3",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "90154691-9e8c-4b0b-bf32-78d6cf45906b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "answer": "Kerry Condon",
+        "dspy_uuid": "6e2e2359-f2ff-4b32-a621-7256dbe96714",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "extended_signature_prefix": "Query:"
+  },
+  "generate_query[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "dspy_uuid": "44edf83b-168a-4dc3-ade7-4a674615cd2e",
+        "context": [
+          "Who Put the Bomp | Who Put The Bomp was a rock music fanzine edited and published by Greg Shaw from 1970 to 1979. Its name came from the hit 1961 doo-wop song by Barry Mann, \"Who Put the Bomp\". Later, the name was shortened to \"Bomp!\"",
+          "Monthly Magazine | The Monthly Magazine (1796\u20131843) of London began publication in February 1796. Richard Phillips was the publisher and a contributor on political issues. The editor for the first ten years was the literary jack-of-all-trades, Dr John Aikin. Other contributors included William Blake, Samuel Taylor Coleridge, George Dyer, Henry Neele and Charles Lamb. The magazine also published the earliest fiction of Charles Dickens, the first of what would become \"Sketches by Boz\"."
+        ],
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "rationale": "produce the query. We know that \"Who Put the Bomp\" was published from 1970 to 1979, so we need to find out when \"Self\" was last published in order to determine which publication is more recent.",
+        "query": "Last publication date of \"Self\" magazine"
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "ec983175-b076-4d3e-bd15-5746c29673b4",
+        "context": [
+          "Scott Shaw | Scott Shaw (born September 23, 1958) is an American actor, author, film director, film producer, journalist, martial artist, musician, photographer, and professor.",
+          "Scott Shaw (artist) | Scott Shaw (often spelled Scott Shaw!) is a United States cartoonist and animator, and historian of comics. Among Scott's comic-book work is Hanna-Barbera's \"The Flintstones\" (for Marvel Comics and Harvey Comics), \"Captain Carrot and His Amazing Zoo Crew\" (for DC Comics), and \"Simpsons Comics\" (for Bongo Comics). He was also the first artist for Archie Comics' \"Sonic the Hedgehog\" comic book series."
+        ],
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "rationale": "answer this question. First, we need to identify the type of content Scott Shaw typically contributes to. Since he is involved in various fields such as film, comics, and martial arts, we can assume that he may have written for magazines related to these topics. Tae Kwon Do Times would be more likely to feature his martial arts-related content, while Southwest Art would be more focused on his work in the arts.",
+        "query": "\"Scott Shaw articles site:taekwondotimes.com\" OR \"Scott Shaw articles site:southwestart.com\""
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "b420da31-b4f6-4122-ba5e-16dd3c71989c",
+        "context": [
+          "Empire State Building | The Empire State Building is a 102-story skyscraper located on Fifth Avenue between West 33rd and 34th Streets in Midtown, Manhattan, New York City. It has a roof height of 1,250 feet (381 m), and with its antenna included, it stands a total of 1454 ft tall. Its name is derived from the nickname for New York, the Empire State.",
+          "Bank of America Plaza (Atlanta) | Bank of America Plaza is a skyscraper located in between Midtown Atlanta and Downtown Atlanta. At 312 m , the tower is the 96th-tallest building in the world. It is the 14th tallest building in the U.S., the tallest building in Georgia and the tallest building in any U.S. state capital, overtaking the 250 m (820 ft), 50 story One Atlantic Center in height, which previously held the record as Georgia's tallest building. It has 55 stories of office space and was completed in 1992, when it was called NationsBank Plaza. Originally intended to be the headquarters for Citizens & Southern National Bank (which merged with Sovran Bank during construction), it became NationsBank's property following its formation in the 1991 hostile takeover of C&S\/Sovran by NCNB."
+        ],
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "rationale": "produce the query. We know that the Empire State Building has a roof height of 1,250 feet and a total height of 1,454 feet with its antenna included. On the other hand, the Bank of America Plaza in Atlanta is 312 meters tall. To compare the two buildings and determine which one is taller, we need to convert the height of the Empire State Building from feet to meters.",
+        "query": "\"Height of Empire State Building in meters\""
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "d7039c9b-0aa4-4771-a9fa-0234816c702b",
+        "context": [
+          "Everything is Changing | Everything is Changing is the fourth studio album by the Anneke van Giersbergen band and the first released under Anneke van Giersbergen's name, instead of \"Agua de Annique\" or \"Anneke van Giersbergen and Agua de Annique\".",
+          "Everything Has Changed | \"Everything Has Changed\" is a song written and performed by American singer-songwriter Taylor Swift and English singer-songwriter Ed Sheeran, taken from Swift's fourth studio album, \"Red\" (2012). Produced by Butch Walker, the track was released as the sixth single from the album on July 16, 2013. \"Everything Has Changed\" is a guitar ballad combining folk and pop genres about \"wanting to get to know a new lover better\"."
+        ],
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "rationale": "produce the query. We know that record labels are responsible for releasing and promoting music albums. In order to find out which record label released the album containing the song \"Everything Has Changed,\" we need to search for the record label associated with Taylor Swift's fourth studio album, \"Red.\"",
+        "query": "What record label released Taylor Swift's fourth studio album \"Red\"?"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "b87d5534-29d4-46fb-ba9f-cb0413c2cfdc",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "answer": "Rosario Dawson",
+        "dspy_uuid": "46c54710-f98a-4fae-ba5d-8dfe0b51909d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "fc98d3e1-c440-48d1-8817-f80dd749a3b1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Samantha Cristoforetti and Mark Shuttleworth are both best known for being first in their field to go where? ",
+        "answer": "space",
+        "dspy_uuid": "3a5d51e8-cce0-44ba-aa1a-52655cbfbcb4",
+        "dspy_split": "train"
+      },
+      {
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "answer": "Bill Murray",
+        "dspy_uuid": "2775a29f-4979-4d68-abe2-a4b2538764b3",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "b91c7117-fe17-4335-b87e-8ae7e2f945d8",
+        "dspy_split": "train"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "bc93e429-52c7-4523-9c23-a89ff3fcd673",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "90154691-9e8c-4b0b-bf32-78d6cf45906b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "a0ead0bb-a767-41d4-b64e-e6495e1bab0c",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "answer": "Kerry Condon",
+        "dspy_uuid": "6e2e2359-f2ff-4b32-a621-7256dbe96714",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "c6609eb2-93c2-403b-b546-fba09ba558d2",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "28edf098-8638-4738-9078-49341e863423",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "extended_signature_prefix": "Query:"
+  },
+  "retrieve": {
+    "k": 3
+  },
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "dspy_uuid": "44edf83b-168a-4dc3-ade7-4a674615cd2e",
+        "context": [
+          "Who Put the Bomp | Who Put The Bomp was a rock music fanzine edited and published by Greg Shaw from 1970 to 1979. Its name came from the hit 1961 doo-wop song by Barry Mann, \"Who Put the Bomp\". Later, the name was shortened to \"Bomp!\"",
+          "Monthly Magazine | The Monthly Magazine (1796\u20131843) of London began publication in February 1796. Richard Phillips was the publisher and a contributor on political issues. The editor for the first ten years was the literary jack-of-all-trades, Dr John Aikin. Other contributors included William Blake, Samuel Taylor Coleridge, George Dyer, Henry Neele and Charles Lamb. The magazine also published the earliest fiction of Charles Dickens, the first of what would become \"Sketches by Boz\".",
+          "Self (magazine) | Self is an American magazine for women that specializes in health, wellness, beauty, and style. Part of Cond\u00e9 Nast, Self had a circulation of 1,515,880 and a total audience of 5,282,000 readers, according to its corporate media kit n 2013. The editor-in-chief is Carolyn Kylstra. \"Self\" is based in the Cond\u00e9 Nast U.S. headquarters at 1 World Trade Center in New York, NY. In February 2017 the magazine became an online publication.",
+          "Self-Publishing Review | Self-Publishing Review (or \"SPR\") is an online book review magazine for indie authors founded in 2008 by American author Henry Baum."
+        ],
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "rationale": "determine the most recent publication date. \"Self\" magazine became an online publication in February 2017, while \"Who Put the Bomp\" was published from 1970 to 1979.",
+        "answer": "Self"
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "ec983175-b076-4d3e-bd15-5746c29673b4",
+        "context": [
+          "Scott Shaw | Scott Shaw (born September 23, 1958) is an American actor, author, film director, film producer, journalist, martial artist, musician, photographer, and professor.",
+          "Scott Shaw (artist) | Scott Shaw (often spelled Scott Shaw!) is a United States cartoonist and animator, and historian of comics. Among Scott's comic-book work is Hanna-Barbera's \"The Flintstones\" (for Marvel Comics and Harvey Comics), \"Captain Carrot and His Amazing Zoo Crew\" (for DC Comics), and \"Simpsons Comics\" (for Bongo Comics). He was also the first artist for Archie Comics' \"Sonic the Hedgehog\" comic book series.",
+          "Tae Kwon Do Times | Tae Kwon Do Times is a magazine devoted to the martial art of taekwondo, and is published in the United States of America. While the title suggests that it focuses on taekwondo exclusively, the magazine also covers other Korean martial arts. \"Tae Kwon Do Times\" has published articles by a wide range of authors, including He-Young Kimm, Thomas Kurz, Scott Shaw, and Mark Van Schuyver."
+        ],
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "rationale": "produce the answer. We know from the context that Scott Shaw has contributed to Tae Kwon Do Times, so the answer is...",
+        "answer": "Tae Kwon Do Times"
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "b420da31-b4f6-4122-ba5e-16dd3c71989c",
+        "context": [
+          "Empire State Building | The Empire State Building is a 102-story skyscraper located on Fifth Avenue between West 33rd and 34th Streets in Midtown, Manhattan, New York City. It has a roof height of 1,250 feet (381 m), and with its antenna included, it stands a total of 1454 ft tall. Its name is derived from the nickname for New York, the Empire State.",
+          "Bank of America Plaza (Atlanta) | Bank of America Plaza is a skyscraper located in between Midtown Atlanta and Downtown Atlanta. At 312 m , the tower is the 96th-tallest building in the world. It is the 14th tallest building in the U.S., the tallest building in Georgia and the tallest building in any U.S. state capital, overtaking the 250 m (820 ft), 50 story One Atlantic Center in height, which previously held the record as Georgia's tallest building. It has 55 stories of office space and was completed in 1992, when it was called NationsBank Plaza. Originally intended to be the headquarters for Citizens & Southern National Bank (which merged with Sovran Bank during construction), it became NationsBank's property following its formation in the 1991 hostile takeover of C&S\/Sovran by NCNB.",
+          "Al-Asmakh Tower | Al Asmakh Tower (formerly the IBQ Tower) is a building in West Bay Area in Doha, Qatar. Its design was inspired by New York City landmark Empire State Building. Its height is 227 meters. It has six basements, ground, mezzanine and 33 floors."
+        ],
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "rationale": "produce the answer. We know that the Empire State Building has a total height of 1454 ft, while the Bank of America Plaza in Atlanta has a height of 1023 ft.",
+        "answer": "Empire State Building"
+      },
+      {
+        "augmented": true,
+        "dspy_uuid": "d7039c9b-0aa4-4771-a9fa-0234816c702b",
+        "context": [
+          "Everything is Changing | Everything is Changing is the fourth studio album by the Anneke van Giersbergen band and the first released under Anneke van Giersbergen's name, instead of \"Agua de Annique\" or \"Anneke van Giersbergen and Agua de Annique\".",
+          "Everything Has Changed | \"Everything Has Changed\" is a song written and performed by American singer-songwriter Taylor Swift and English singer-songwriter Ed Sheeran, taken from Swift's fourth studio album, \"Red\" (2012). Produced by Butch Walker, the track was released as the sixth single from the album on July 16, 2013. \"Everything Has Changed\" is a guitar ballad combining folk and pop genres about \"wanting to get to know a new lover better\".",
+          "Red (Taylor Swift album) | Red is the fourth studio album by American singer-songwriter Taylor Swift. It was released on October 22, 2012, by Big Machine Records, as the follow-up to her third studio album, \"Speak Now\". The album title was inspired by the \"semi-toxic relationships\" that Swift experienced during the process of conceiving this album, which Swift described the emotions she felt as \"red emotions\" due to their intense and tumultuous nature. \"Red\" touches on Swift's signature themes of love and heartbreak, however, from a more mature perspective while exploring other themes such as fame and the pressure of being in the limelight. The album features collaborations with producers and guest artists such as Gary Lightbody of Snow Patrol and Ed Sheeran and is noted for Swift's experimentation with new musical genres. Swift completed The Red Tour in support of the album on June 12, 2014, which became the highest-grossing tour of all time by a country artist, grossing over $150 million.",
+          "Red (Taylor Swift song) | \"Red\" is a song recorded by American singer-songwriter Taylor Swift for her fourth studio album of the same name (2012). It was released on October 2, 2012, in the US by Big Machine Records as the second promotional single from \"Red\" in 2012 and serves as the album's fifth single on June 21, 2013. It was part of the tracks released during the four weeks preceding the release of the album. Musically, \"Red\" is a country song, and its lyrics uses colors and metaphors to describe an intense and tumultuous relationship."
+        ],
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "rationale": "produce the answer. The song \"Everything Has Changed\" is from Taylor Swift's fourth studio album \"Red\" released in 2012. According to the context, the album was released by a specific record label.",
+        "answer": "Big Machine Records"
+      },
+      {
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "answer": "Rosario Dawson",
+        "dspy_uuid": "46c54710-f98a-4fae-ba5d-8dfe0b51909d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "28edf098-8638-4738-9078-49341e863423",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "b91c7117-fe17-4335-b87e-8ae7e2f945d8",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "90154691-9e8c-4b0b-bf32-78d6cf45906b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "c6609eb2-93c2-403b-b546-fba09ba558d2",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "fc98d3e1-c440-48d1-8817-f80dd749a3b1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Samantha Cristoforetti and Mark Shuttleworth are both best known for being first in their field to go where? ",
+        "answer": "space",
+        "dspy_uuid": "3a5d51e8-cce0-44ba-aa1a-52655cbfbcb4",
+        "dspy_split": "train"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "bc93e429-52c7-4523-9c23-a89ff3fcd673",
+        "dspy_split": "train"
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "a0ead0bb-a767-41d4-b64e-e6495e1bab0c",
+        "dspy_split": "train"
+      },
+      {
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "answer": "Bill Murray",
+        "dspy_uuid": "2775a29f-4979-4d68-abe2-a4b2538764b3",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "answer": "Kerry Condon",
+        "dspy_uuid": "6e2e2359-f2ff-4b32-a621-7256dbe96714",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "b87d5534-29d4-46fb-ba9f-cb0413c2cfdc",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Answer questions with short factoid answers.",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "Answer questions with short factoid answers.",
+    "extended_signature_prefix": "Answer:"
+  }
+}

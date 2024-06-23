@@ -1,0 +1,170 @@
+{
+  "generate_query[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim312:",
+        "answer": "claim312 is for Raj Palli, submitted on =5\/1\/2024, status=held, billed_amount=320, allowed_amount=250, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      }
+    ],
+    "signature_instructions": "ReWrite the question with rekeyed claimid only if rekeyed claimid found context",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "ReWrite the question with rekeyed claimid only if rekeyed claimid found context",
+    "extended_signature_prefix": "Query:"
+  },
+  "generate_query[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim312:",
+        "answer": "claim312 is for Raj Palli, submitted on =5\/1\/2024, status=held, billed_amount=320, allowed_amount=250, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      },
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      }
+    ],
+    "signature_instructions": "ReWrite the question with rekeyed claimid only if rekeyed claimid found context",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "ReWrite the question with rekeyed claimid only if rekeyed claimid found context",
+    "extended_signature_prefix": "Query:"
+  },
+  "retriever": {
+    "k": 3
+  },
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "question": "What happened to my claim claim312:",
+        "answer": "claim312 is for Raj Palli, submitted on =5\/1\/2024, status=held, billed_amount=320, allowed_amount=250, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim310:",
+        "answer": "claim310 is for Vamsi Krish, submitted on =3\/1\/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim311:",
+        "answer": "claim311 is for Vamsi Krish, submitted on =3\/2\/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim124:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30, Note: claim124 was reversed and reversed and rekeyed as claim324\n"
+      },
+      {
+        "question": "What happened to my claim claim212:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim212 was reversed and rekeyed as claim214 and claim214 was reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim411:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50 Note: claim411 was reversed and rekeyed as claim 412\n"
+      },
+      {
+        "question": "What happened to my claim claim214:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0 Note: claim214 was reversed and reversed and rekeyed as claim216\n"
+      },
+      {
+        "question": "What happened to my claim claim412:",
+        "answer": "claim412 is for Sri Valli, submitted on =2\/1\/2024, status=held, billed_amount=520, allowed_amount=350, member_cost_share=50"
+      },
+      {
+        "question": "What happened to my claim claim324:",
+        "answer": "claim324 is for Vidhya Allu, submitted on 2\/1\/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30\n"
+      },
+      {
+        "question": "What happened to my claim claim216:",
+        "answer": "claim216 is for Vidhya Allu, submitted on 4\/1\/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0\n"
+      },
+      {
+        "question": "What happened to my claim claim123:",
+        "answer": "claim123 is for Ram Subra, submitted on =1\/1\/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20\n"
+      }
+    ],
+    "signature_instructions": "Answer the questions from non reversed claim.",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "Answer the questions from non reversed claim.",
+    "extended_signature_prefix": "Answer:"
+  }
+}

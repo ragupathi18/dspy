@@ -1,7 +1,7 @@
 claim923 is for Ram Subra, submitted on =1/1/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20
 claim924 is for Vidhya Allu, submitted on =2/1/2024, status=reversed and rekeyed as claimq124
 claimq124 is for Vidhya Allu, submitted on 2/1/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30
-claimh9999 search claim Manual123 for status
+claimh9999 is reversed, you should search claim Manual123 for status
 Manual123 is for Vidhya Allu, submitted on 4/1/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0
 claimq110 is for Vamsi Krish, submitted on =3/1/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0
 claimq111 is for Vamsi Krish, submitted on =3/2/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30
@@ -17,10 +17,10 @@ claimq1224 is for Vidhya Allu, submitted on 2/1/2023, status=paid, billed_amount
 claimq1254 is for Vidhya Allu, submitted on 2/1/2023, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30
 claimq1264 is for Vidhya Allu, submitted on 2/11/2023, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30
 claim123 is for Ram Subra, submitted on =1/1/2024, status=paid, billed_amount=120, allowed_amount=100, member_cost_share=20
-claim124 is for Vidhya Allu, submitted on 2/1/2024, status=reversed and reversed and rekeyed as claim324
+claim124 is for Vidhya Allu, submitted on 2/1/2024, status=you should search claim Claim123 for status
 claim324 is for Vidhya Allu, submitted on 2/1/2024, status=paid, billed_amount=150, allowed_amount=120, memberWh_cost_share=30
-claim212 is for Vidhya Allu, submitted on 4/1/2024, status=reversed and rekeyed as claim214 
-claim214 is for Vidhya Allu, submitted on 4/1/2024, status=reversed and rekeyed as claim216
+claim212 is for Vidhya Allu, submitted on 4/1/2024, status=you should search claim Claim214 for status
+claim214 is for Vidhya Allu, submitted on 4/1/2024, status=you should search claim Claim216 for status
 claim216 is for Vidhya Allu, submitted on 4/1/2024, status=denied, billed_amount=250, allowed_amount=0, memberWh_cost_share=0
 claim310 is for Vamsi Krish, submitted on =3/1/2024, status=denied, billed_amount=520, allowed_amount=0, member_cost_share=0
 claim311 is for Vamsi Krish, submitted on =3/2/2024, status=paid, billed_amount=1120, allowed_amount=1000, member_cost_share=30

@@ -19,10 +19,11 @@ dspy.settings.configure(lm=turbo, rm=rmc)
 trainset=ClaimDemo().createExample()
 
 # Ask any question you like to this simple RAG program.
-claim_question="What happened to my claim claim216?"
+claim_question="What happened to my claim claimh9999?"
 
 # Get the prediction. This contains `pred.context` and `pred.answer`.
 uncompiled_baleen = SimplifiedBaleen()  # uncompiled (i.e., zero-shot) program
+#print(uncompiled_baleen.predictors())
 uncompiled_baleen.save("multihop_uncompiledclaim.txt")
 pred = uncompiled_baleen(claim_question)
 
